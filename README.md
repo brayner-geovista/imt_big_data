@@ -2,28 +2,33 @@
 
 
 
-Big Data Pipeline
+Parte 1 - Big Data Pipeline
 Referência: Aula de Big Data - Professor Murilo Zanini
 
-Fazer download e descompactar o arquivo de GTFS
+Fazer download e descompactar o arquivo de feed GTFS da sptrans
+
+```
 cd Downloads
 wget https://transitfeeds.com/p/sptrans/1049/latest/download
 mkdir gtfs
 cp download gtfs
 unzip download
-
+```
 
 Inserindo um dia de um arquivo GTFS
 
+```
 Iniciar HDFS
 start-dfs.sh
 hdfs dfs -mkdir /datasets
 hdfs dfs -ls /datasets
 hdfs dfs -mkdir /datasets/gtfs_um_dia
 hdfs dfs -ls /datasets/gtfs_um_dia
-
+```
 
 Inserindo arquivos no HDFS
+
+```
 hdfs dfs -put agency.txt /datasets/gtfs_um_dia 
 hdfs dfs -put fare_attributes.txt /datasets/gtfs_um_dia 
 hdfs dfs -put routes.txt /datasets/gtfs_um_dia
@@ -36,7 +41,7 @@ hdfs dfs -put frequencies.txt /datasets/gtfs_um_dia
 hdfs dfs -put stops.txt /datasets/gtfs_um_dia
 hdfs dfs -ls /datasets/gtfs_um_dia
 hdfs dfs -ls /datasets/
-
+```
 
 
 hdfs dfs -mkdir /datasets/gtfs_um_dia
