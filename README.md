@@ -48,3 +48,5 @@ hdfs dfs -ls /datasets/
 
 
 ## Parte 2 - Código executado no colab
+
+https://drive.google.com/file/d/1HG7gvcRfK3wy0JD1SDoIrIDtleeYC11z/view?usp=sharing
