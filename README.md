@@ -6,7 +6,7 @@ Utilizar ferramentas Big Data para tratar e visualizar uma grande quantidade de 
 
 
 
-Parte 1 - Big Data Pipeline
+## Parte 1 - Código executado na máquina virtual
 
 Referência: Aula de Big Data - Professor Murilo Zanini
 
@@ -49,4 +49,4 @@ hdfs dfs -ls /datasets/
 ```
 
 
-hdfs dfs -mkdir /datasets/gtfs_um_dia
+## Parte 1 - Código executado no collab
