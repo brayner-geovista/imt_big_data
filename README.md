@@ -49,4 +49,4 @@ hdfs dfs -ls /datasets/
 ```
 
 
-## Parte 1 - Código executado no collab
+## Parte 2 - Código executado no colab
