@@ -4,9 +4,6 @@ Utilizar ferramentas Big Data para tratar e visualizar uma grande quantidade de 
 
 https://transitfeeds.com/p/sptrans/.
 
-![test](readmeimage.png)
-
-
 ## Parte 1 - Código executado na máquina virtual
 
 Referência: Aula de Big Data - Professor Murilo Zanini
@@ -53,3 +50,7 @@ hdfs dfs -ls /datasets/
 ## Parte 2 - Código executado no colab
 
 https://drive.google.com/file/d/1HG7gvcRfK3wy0JD1SDoIrIDtleeYC11z/view?usp=sharing
+
+## Parte 3 - Imagem final renderizada pelo Datashader
+
+![test](readmeimage.png)
