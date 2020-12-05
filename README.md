@@ -21,7 +21,6 @@ unzip download
 Inserindo um dia de um arquivo GTFS
 
 ```
-Iniciar HDFS
 start-dfs.sh
 hdfs dfs -mkdir /datasets
 hdfs dfs -ls /datasets
