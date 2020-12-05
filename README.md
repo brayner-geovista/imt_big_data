@@ -1,6 +1,6 @@
 # Objetivo
 
-Utilizar ferramentas Big Data para tratar e visualizar uma grande quantidade de dados de GPS. Os dados de GPS escolhidos foram os feeds de GTFS da SPTRANS que podem ser obtidos no seguinte link: 
+Utilizar ferramentas Big Data para tratar e visualizar uma grande quantidade de dados de GPS. Os dados de GPS escolhidos foram os feeds de GTFS da SPTRANS do seguinte link: 
 
 https://transitfeeds.com/p/sptrans/.
 
