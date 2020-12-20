@@ -2,7 +2,7 @@
 
 Utilizar ferramentas Big Data para tratar e visualizar uma grande quantidade de dados de GPS. Os dados de GPS escolhidos foram os feeds de GTFS da SPTRANS do seguinte link: 
 
-https://transitfeeds.com/p/sptrans/.
+https://transitfeeds.com/p/sptrans.
 
 ## Parte 1 - Código executado na máquina virtual
 
